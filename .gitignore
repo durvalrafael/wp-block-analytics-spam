@@ -1,2 +1,19 @@
 Thumbs.db
 .DS_Store
+
+*.log
+public/*.sql
+public/*.sql.gz
+
+bin/node_modules
+bin/node_modules/
+bin/.sass-cache/
+
+# #######################
+# REMOVE IN PROJECT
+# #######################
+assets/scripts/dist/*
+!assets/scripts/dist/index.php
+
+assets/styles/dist/*
+!assets/styles/dist/index.php
