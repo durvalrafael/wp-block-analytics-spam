@@ -9,7 +9,17 @@ class WP_Block_analytics_Spam_Helpful
 	/**
 	 * @var string
 	 */
-	protected $bot_public_list = 'https://raw.githubusercontent.com/devimweb/bot-public-list/master/bot-public-list.php';
+	protected $list_url = 'https://api.github.com/repos/devimweb/bot-public-list/contents/bot-public-list.php?client_id=%s&client_secret=%s';
+
+	/**
+	 * @var string
+	 */
+	protected $client_id = '0691a3989b54d3536d90';
+
+	/**
+	 * @var string
+	 */
+	protected $client_secret = '563b6c4d8af8f594f74e8b5dd877d0cda5d6a6e3';
 
 	/**
 	 *
@@ -23,9 +33,15 @@ class WP_Block_analytics_Spam_Helpful
 			$array_of_private_bots = explode( PHP_EOL, $array_of_private_bots );
 
 			// Get public domains list blocked
-			$list_respose = wp_remote_get( $this->bot_public_list );
+			$url = sprintf( $this->list_url, $this->client_id, $this->client_secret );
+			$args = array(
+			    'headers'     => array(
+			    	'Accept' => 'application/vnd.github.VERSION.raw'
+			    ),
+			);
+			$list_respose = wp_remote_get( $url, $args );
 
-			$list_respose_status =  wp_remote_retrieve_response_code( $list_respose );
+			$list_respose_status = wp_remote_retrieve_response_code( $list_respose );
 			$list_respose_data   = wp_remote_retrieve_body( $list_respose );
 
 			if ( ( is_wp_error( $list_respose ) ) || ( $list_respose_data == 'Not Found' ) || ! in_array( $list_respose_status , array('200', '201') ) )
