@@ -15,6 +15,8 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
+define( 'WPBAS_PREFIX', 'wp_block_analytics_spam_' );
+
 register_activation_hook( __FILE__, array( 'WP_Block_analytics_Spam', 'plugin_activate' ) );
 register_deactivation_hook( __FILE__, array( 'WP_Block_analytics_Spam', 'plugin_deactivate' ) );
 
@@ -60,12 +62,12 @@ class WP_Block_analytics_Spam
 	 */
 	static function plugin_activate() {
 		$activate_options = array(
-			'update_frequency'   => '1',
-			'extra_domains'      => '',
+			'update_frequency' => '1',
+			'extra_domains'    => ''
 		);
 
 		add_option( 'wp_block_analytics_spam_settings', $activate_options );
-
+		add_option( 'wp_block_analytics_spam_remote_domains', 'false' );
 	}
 
 	/**
@@ -73,7 +75,8 @@ class WP_Block_analytics_Spam
 	 */
 	static function plugin_deactivate() {
 		delete_option( 'wp_block_analytics_spam_settings' );
-		delete_transient( 'wp_block_analytics_spam_list' );
+		delete_option( 'wp_block_analytics_spam_remote_domains' );
+		delete_transient( 'wp_block_analytics_spam_check_update' );
 	}
 
 	/**

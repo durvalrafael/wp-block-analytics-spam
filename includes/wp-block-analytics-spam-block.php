@@ -27,10 +27,12 @@ class WP_Block_analytics_Spam_Block
 
 			$array_of_bots = $this->helpful->get_bot_list();
 
-			foreach( $array_of_bots as $bot ){
-				if ( strpos( $reference, $bot ) !== false ){
-					wp_die( 'This is no place for bot', 'This is no place for bot', array( 'response'=> 403 ) );
-					exit;
+			if ( is_array( $array_of_bots ) ) {
+				foreach( $array_of_bots as $bot ){
+					if ( strpos( $reference, $bot ) !== false ){
+						wp_die( 'This is no place for bot', 'This is no place for bot', array( 'response'=> 403 ) );
+						exit;
+					}
 				}
 			}
 		}
