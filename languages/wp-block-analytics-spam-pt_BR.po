@@ -1,0 +1,111 @@
+# Copyright (C) 2015 WordPress Block Analytics Spam
+# This file is distributed under the same license as the WordPress Block Analytics Spam package.
+# Translators:
+# Miguel Alves da Silva Neto <miguel.sneto@devim.com.br>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Block analytics Spam\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-block-"
+"analytics-spam\n"
+"POT-Creation-Date: 2015-11-24 12:11:49+00:00\n"
+"PO-Revision-Date: 2015-11-24 10:26-0300\n"
+"Last-Translator: Miguel Alves da Silva Neto <miguel.sneto@devim.com.br>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/devim/wordpress-"
+"block-analytics-spam/language/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: includes/admin/views/html-settings-page.php:10
+msgid ""
+"Help us keep the %s plugin free making a rate %s on %s. Thank you in advance!"
+msgstr ""
+"Ajude-nos a manter o %s gratuito, para isso vote %s no %s. Muito obrigado!"
+
+#: includes/admin/views/html-settings-page.php:10
+msgid "WordPress Block analytics Spam"
+msgstr "WordPress Block analytics Spam"
+
+#: includes/admin/views/html-settings-page.php:10
+msgid "WordPress.org"
+msgstr "WordPress.org"
+
+#: includes/admin/wp-block-analytics-spam-plugin.php:23
+msgid "Official Forum"
+msgstr "Fórum Oficial"
+
+#: includes/admin/wp-block-analytics-spam-plugin.php:23
+msgid "Get Help"
+msgstr "Obtenha ajuda"
+
+#: includes/admin/wp-block-analytics-spam-plugin.php:24
+msgid "Official Repository"
+msgstr "Repositório Oficial"
+
+#: includes/admin/wp-block-analytics-spam-plugin.php:24
+msgid "Get Involved"
+msgstr "Contribua"
+
+#: includes/admin/wp-block-analytics-spam-plugin.php:25
+msgid "Rate WordPress Block analytics Spam"
+msgstr "Classifique o WordPress Block analytics Spam"
+
+#: includes/admin/wp-block-analytics-spam-plugin.php:37
+msgid "Settings"
+msgstr "Configurações"
+
+#: includes/admin/wp-block-analytics-spam-settings.php:34
+#: includes/admin/wp-block-analytics-spam-settings.php:35
+msgid "Block analytics Spam"
+msgstr "Block analytics Spam"
+
+#: includes/admin/wp-block-analytics-spam-settings.php:60
+msgid "General Options:"
+msgstr "Opções Gerais:"
+
+#: includes/admin/wp-block-analytics-spam-settings.php:68
+msgid "List update frequency"
+msgstr "Freqüência de atualização da lista"
+
+#: includes/admin/wp-block-analytics-spam-settings.php:88
+msgid "Block additional domains"
+msgstr "Bloquear domínios adicionais"
+
+#: includes/admin/wp-block-analytics-spam-settings.php:97
+msgid ""
+"Domains must be entered one per line and be careful in the domains you want "
+"to block."
+msgstr ""
+"Domínios precisam ser inseridos um por linha e seja cuidadoso nos domínios "
+"que você quer bloquear."
+
+#: includes/admin/wp-block-analytics-spam-settings.php:158
+msgid "> Not Set"
+msgstr "> Não informado"
+
+#. Plugin Name of the plugin/theme
+msgid "WordPress Block Analytics Spam"
+msgstr "WordPress Block Analytics Spam"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/devimweb/wp-block-analytics-spam"
+msgstr "https://github.com/devimweb/wp-block-analytics-spam"
+
+#. Description of the plugin/theme
+msgid ""
+"Stop the Spam bot as semalt.com and buttons-for-website.com that appear on "
+"Google Analytics and have real reports."
+msgstr ""
+"Pare com o spam de bots como semalt.com e buttons-for-website.com que "
+"aparecem no Google Analytics e tenha relatórios reais."
+
+#. Author of the plugin/theme
+msgid "Devim - Agência Web"
+msgstr "Devim - Agência Web"
+
+#. Author URI of the plugin/theme
+msgid "http://www.devim.com.br/"
+msgstr "http://www.devim.com.br/"

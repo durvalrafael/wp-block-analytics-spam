@@ -1,0 +1,100 @@
+# Copyright (C) 2015 WordPress Block Analytics Spam
+# This file is distributed under the same license as the WordPress Block Analytics Spam package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Block Analytics Spam 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-block-"
+"analytics-spam\n"
+"POT-Creation-Date: 2015-11-24 12:11:49+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/admin/views/html-settings-page.php:10
+msgid ""
+"Help us keep the %s plugin free making a rate %s on %s. Thank you in advance!"
+msgstr ""
+
+#: includes/admin/views/html-settings-page.php:10
+msgid "WordPress Block analytics Spam"
+msgstr ""
+
+#: includes/admin/views/html-settings-page.php:10
+msgid "WordPress.org"
+msgstr ""
+
+#: includes/admin/wp-block-analytics-spam-plugin.php:23
+msgid "Official Forum"
+msgstr ""
+
+#: includes/admin/wp-block-analytics-spam-plugin.php:23
+msgid "Get Help"
+msgstr ""
+
+#: includes/admin/wp-block-analytics-spam-plugin.php:24
+msgid "Official Repository"
+msgstr ""
+
+#: includes/admin/wp-block-analytics-spam-plugin.php:24
+msgid "Get Involved"
+msgstr ""
+
+#: includes/admin/wp-block-analytics-spam-plugin.php:25
+msgid "Rate WordPress Block analytics Spam"
+msgstr ""
+
+#: includes/admin/wp-block-analytics-spam-plugin.php:37
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/wp-block-analytics-spam-settings.php:34
+#: includes/admin/wp-block-analytics-spam-settings.php:35
+msgid "Block analytics Spam"
+msgstr ""
+
+#: includes/admin/wp-block-analytics-spam-settings.php:60
+msgid "General Options:"
+msgstr ""
+
+#: includes/admin/wp-block-analytics-spam-settings.php:68
+msgid "List update frequency"
+msgstr ""
+
+#: includes/admin/wp-block-analytics-spam-settings.php:88
+msgid "Block additional domains"
+msgstr ""
+
+#: includes/admin/wp-block-analytics-spam-settings.php:97
+msgid ""
+"Domains must be entered one per line and be careful in the domains you want "
+"to block."
+msgstr ""
+
+#: includes/admin/wp-block-analytics-spam-settings.php:158
+msgid "> Not Set"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WordPress Block Analytics Spam"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/devimweb/wp-block-analytics-spam"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Stop the Spam bot as semalt.com and buttons-for-website.com that appear on "
+"Google Analytics and have real reports."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Devim - Agência Web"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.devim.com.br/"
+msgstr ""
