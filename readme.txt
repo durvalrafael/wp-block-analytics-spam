@@ -3,7 +3,7 @@ Contributors: miguelmuller
 Tags: block bots, bot block, bot blocker, bot blocking, google analytics, google analytics spam, seo, bots, buttons-for-websites, 100dollarsseo, semalt, crawlers, spam, analytics, analytics block, analytics spam
 Requires at least: 4.0
 Tested up to: 4.3
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv3 License
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
