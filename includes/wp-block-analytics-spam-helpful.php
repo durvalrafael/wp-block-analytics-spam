@@ -9,7 +9,7 @@ class WP_Block_analytics_Spam_Helpful
 	/**
 	 * @var string
 	 */
-	protected $list_url = 'https://api.github.com/repos/devimweb/bot-public-list/contents/bot-public-list.php';
+	protected $list_url = 'https://api.github.com/repos/devimweb/bot-public-list/contents/bot-public-list.txt';
 
 	/**
 	 *
