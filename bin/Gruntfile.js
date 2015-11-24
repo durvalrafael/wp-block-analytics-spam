@@ -185,5 +185,5 @@ module.exports = function(grunt) {
 	grunt.registerTask( 'script', [ 'jshint', 'uglify' ]);
 	grunt.registerTask( 'style', [ 'compass' ]);
 	grunt.registerTask( 'image', [ 'imagemin' ]);
-	grunt.registerTask( 'deploy', ['default', 'rsync:tag', 'rsync:trunk', 'shell:svn_remove', 'shell:svn_add', 'shell:svn_commit']);
+	grunt.registerTask( 'deploy', [ 'default', 'rsync:tag', 'rsync:trunk', 'shell:svn_remove', 'shell:svn_add', 'shell:svn_commit']);
 };

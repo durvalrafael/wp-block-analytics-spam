@@ -3,7 +3,7 @@
  * Plugin Name: WordPress Block Analytics Spam
  * Plugin URI: https://github.com/devimweb/wp-block-analytics-spam
  * Description: Stop the Spam bot as semalt.com and buttons-for-website.com that appear on Google Analytics and have real reports.
- * Version: 1.0.0
+ * Version: 1.2.0
  * Author: Devim - Agência Web
  * Author URI: http://www.devim.com.br/
  * License: GPLv3 License

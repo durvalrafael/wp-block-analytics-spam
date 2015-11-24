@@ -1,9 +1,9 @@
-=== WordPress Block analytics Spam ===
+=== WordPress Block Analytics Spam ===
 Contributors: miguelmuller
 Tags: block bots, bot block, bot blocker, bot blocking, google analytics, google analytics spam, seo, bots, buttons-for-websites, 100dollarsseo, semalt, crawlers, spam, analytics, analytics block, analytics spam
 Requires at least: 4.0
-Tested up to: 4.3
-Stable tag: 1.1.0
+Tested up to: 4.4
+Stable tag: 1.2.0
 License: GPLv3 License
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -12,14 +12,14 @@ Stop the Spam bot as semalt and buttons-for-website that appear on Google Analyt
 == Description ==
 WordPress analytics Block Spam is a WordPress plugin that blocks the undesirables bots that appear in your referral reports from Google Analytics.
 
-The plugin uses a <a href="https://github.com/devimweb/bot-public-list">collaborative public list</a> that is constantly updated to identify and deny malicious connections.
+> The plugin uses a <a href="https://github.com/devimweb/bot-public-list">collaborative public list</a> that is constantly updated to identify and deny malicious connections.
 
 Using the plugin is very simple and you do not need to waste time with many settings.
 
 <h4>Descrição em Português:</h4>
 O WordPress Block analytics Spam é um plugin para WordPress que bloqueia os indesejáveis bots que aparecem nos seus relatórios de referência do Google Analytics.
 
-O plugin usa uma <a href="https://github.com/devimweb/bot-public-list">lista pública colaborativa</a> que está em constante atualização para identificar e recusar conexões maliciosas.
+> O plugin usa uma <a href="https://github.com/devimweb/bot-public-list">lista pública colaborativa</a> que está em constante atualização para identificar e recusar conexões maliciosas.
 
 A utilização do plugin é muito simples e não é necessário perder tempo com muitas configurações.
 
